@@ -1,0 +1,11 @@
+<h2>ShowController#index</h2>
+<table class="list"  style="max-width: 400px; align: right;">
+  <tr>
+    <th>ユーザー名</th>
+  </tr>
+  <% @names.each{|value| %>
+    <tr>
+      <td><%= value %>さん</td>
+    </tr>
+  <% } %>
+</table>
